@@ -52,6 +52,10 @@ repo = "vim-latex/vim-latex"
 on_ft = ['tex']
 
 [[plugins]]
+repo="rust-lang/rust.vim"
+on_ft = ['rs']
+
+[[plugins]]
 repo = 'neomake/neomake'
 if = "has('nvim')"
 hook_add = '''

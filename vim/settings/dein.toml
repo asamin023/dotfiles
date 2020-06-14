@@ -1,8 +1,6 @@
-# 基本は github.com のレポジトリーを指定するだけ
 [[plugins]]
 repo = 'Shougo/dein.vim'
 
-# git clone 後、実行すべきコマンドがある場合はこんな感じ
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
 hook_post_update = '''
@@ -49,14 +47,6 @@ repo = 'Townk/vim-autoclose'
 #syntax check
 [[plugins]]
 repo =  'scrooloose/syntastic'
-
-[[plugins]]
-repo = 'fatih/vim-go'
-
-
-# インデントの可視化　上手く機能してない？
-[[plugins]]
-repo = 'Yggdroot/indentLine'
 
 # インデントの可視化
 [[plugins]]
@@ -115,10 +105,6 @@ repo = 'rhysd/clever-f.vim'
 
 [[plugins]]
 repo = 'kana/vim-operator-user'
-
-#コピーしたところが一瞬ハイライトされる 入らなかった
-[[plugins]]
-repo = 'haya14busa/vim-operator-flashy'
 
 #html補完
 [[plugins]]

@@ -88,12 +88,12 @@ endif
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
-  " プラグインリストを収めた TOML ファイル
-  let g:rc_dir    = expand('~/.vim/rc')
+  " plugins
+  let g:rc_dir    = expand('~/.vim/settings')
   let s:toml      = g:rc_dir . '/dein.toml'
   let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
-  " TOML を読み込み、キャッシュしておく
+  " load settings
   call dein#load_toml(s:toml,      {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 1})
 
